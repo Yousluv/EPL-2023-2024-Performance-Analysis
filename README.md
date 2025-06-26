@@ -1,6 +1,7 @@
 # EPL-2023-2024-Performance-Analysis
 ⚽ English Premier League 2023/2024 Analysis Report
-Portfolio Project for GitHub
+
+![](dashteam.png)
 
 ## 📌 Summary
 This portfolio project presents a comprehensive analysis of the English Premier League (EPL) 2023/2024 season using visual dashboards. The study highlights team performances, player contributions, goalkeeping stats, discipline, and tactical efficiency. With a data-driven approach, this report offers strategic insights and actionable recommendations for clubs and players to optimize future performance.
@@ -41,6 +42,7 @@ Team-Level Metrics:
 -	Expected Goals (xG)
 
 ## 🧹 Data Preparation and Cleaning
+- Data Source: Sofascore.com
 -	Aggregated stats per club and player were sourced and cleaned for consistency.
 -	Player names and team names were standardized.
 -	Duplicates, missing values, and inconsistent labels (e.g., "N.Forest" → "Nottingham Forest") were corrected.
@@ -54,10 +56,14 @@ Team-Level Metrics:
 -	Offensive effectiveness was evaluated through conversion rate and total contributions.
 
 ## 🛠 Tools Used
--	Power BI for interactive dashboard design and visualization
 -	Microsoft Excel for initial data wrangling
--	Canva for design polishing (optional)
+-	PowerQuery for Data Transformation
+-	Pivot table for Data manuipulation and aggregation
 -	GitHub for project documentation and sharing
+
+## Player Performance
+
+![](PlayerDash.png)
 
 ## 🔍 Key Insights
 ### 🔹 Team-Level
